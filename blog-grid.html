@@ -1,0 +1,517 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ZEROHACK | BLOG GRID</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Favicons-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<style>
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-social li {
+        display: inline-block;
+    }
+
+    .footer-social a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-decoration: none;
+    }
+
+    .footer-social a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .footer-social i {
+        font-size: 24px;
+        color: #1A1A1A;
+        transition: color 0.3s ease;
+    }
+
+    .footer-social a:hover i {
+        color: #FFD700; /* Gold hover effect for better contrast */
+    }
+
+    .footer-social a[href*="github"]:hover i {
+        color: #000000;
+    }
+
+    .footer-social a[href*="twitter"]:hover i {
+        color: #1DA1F2;
+    }
+
+    .footer-social a[href*="instagram"]:hover i {
+        color: #E4405F;
+    }
+
+    .footer-social a[href*="medium"]:hover i {
+        color: #02b875;
+    }
+
+    @media (max-width: 768px) {
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+        }
+
+        .footer-social i {
+            font-size: 20px;
+        }
+    }
+
+    .social-links ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .social-links li {
+        display: inline-block;
+    }
+
+    .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+    .social-links a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .social-links a:hover img {
+        transform: scale(1.2);
+    }
+
+    @media (max-width: 768px) {
+        .social-links a {
+            width: 40px;
+            height: 40px;
+        }
+
+        .social-links img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+</style>    
+</head>
+    <body>
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader-end -->
+
+		<!-- Scroll-top -->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <!-- Scroll-top-end-->
+
+        <!-- header-area -->
+        <header>
+            <div id="sticky-header" class="menu-area transparent-header">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                        <ul class="navigation">
+                                            <li class="menu-item-has-children"><a href="index.html">Home</a>
+                                                
+                                            </li>
+                                            <li><a href="about-us.html">About</a></li>
+                                            <li class="menu-item-has-children"><a href="services.html">Our Services</a>
+                                                
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">Pages</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="pricing.html">Pricing</a></li>
+                                                    
+                                                    <li><a href="faq.html">FAQ</a></li>
+                                                    
+                                                </ul>
+                                            </li>
+                                            
+                                            <li class="active menu-item-has-children"><a href="#">Blog</a>
+                                                <ul class="sub-menu">
+                                                    <li class="active"><a href="blog-grid.html">Blog Grid</a></li>
+                                                    <li><a href="blog.html">Blog Standard</a></li>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">contacts</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="offcanvas-btn">
+                                        <a href="#"><img src="assets/img/icons/dots.png" alt="Icon"></a>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Mobile Menu  -->
+                            <div class="mobile-menu">
+                                <nav class="menu-box">
+                                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                                    <div class="nav-logo"><a href="index.html"><img src="assets/img/logo/logo.png" alt="" title=""></a>
+                                    </div>
+                                    <div class="menu-outer">
+                                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                    </div>
+                                   
+                                </nav>
+                            </div>
+                            <div class="menu-backdrop"></div>
+                            <!-- End Mobile Menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- offCanvas-start -->
+            <div class="offCanvas-wrap">
+                <div class="offCanvas-toggle"><img src="assets/img/icons/cross.svg" alt="icon"></div>
+                <div class="offCanvas-body">
+                    <div class="offCanvas-content">
+                        <h3 class="title">Digital safety <span>starts here</span> for both commercial and personal</h3>
+                        <p>strong cybersecurity policies, employee training, and security frameworks for businesses, while for individuals, it begins with basic cyber hygiene, such as strong passwords, multi-factor authentication, software updates, and cautious online behavior, making it a continuous process that evolves with new threats and technologies.</p>
+                    </div>
+                    <div class="offcanvas-contact footer-contact-info">
+                        <h4 class="number">+254713324225</h4>
+                        <h4 class="email">zerohack.agency@gmail.com</h4>
+                        <p>NAIROBI<br> KENYA</p>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="offCanvas-overlay"></div>
+            <!-- offCanvas-end -->
+
+        </header>
+        <!-- header-area-end -->
+       
+
+        <!-- main-area -->
+        <main class="main-area fix">
+
+            <!-- breadcrumb-area -->
+            <section class="breadcrumb-area">
+                <div class="breadcrumb-bg" data-background="assets/img/bg/breadcrumb_bg.png"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <div class="breadcrumb-content text-center">
+                                <h3 class="title">Blog Grid</h3>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Blog Grid</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- breadcrumb-area-end -->
+
+            <!-- blog-area -->
+            <section class="blog-area inner-blog-area">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/cloudblog.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Five Strategies to Optimize Cloud Security in 2019</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/technologytakeover.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Technology Takeover: How to Secure IoT Environments</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/challengeofrealtime.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">The Challenge of Real-Time Cyber Protection</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Cybersecurity Attacks & the Transportation Industry.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Cybersecurity Attacks & the Transportation Industry</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Facebook’s Outage.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">What You Don’t Know About Facebook’s Outage</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/cybersecuritypolicy.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">How to Create an Effective Cybersecurity Policy</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/security remote workers.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Best Cybersecurity Tips for Remote Workers</a></h3>
+                                    <span class="post-date">February 4, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Security Architecture and Design Reviews.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Security Architecture and Design Reviews</a></h3>
+                                    <span class="post-date">March 10, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Cyber Security Earnings and Career Trend.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Cyber Security Earnings and Career Trends</a></h3>
+                                    <span class="post-date">March 12, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Vulnerability Disclosure_ New Toolkit Available.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Vulnerability Disclosure: New Toolkit Available</a></h3>
+                                    <span class="post-date">March 17, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Businesses Hit By Remote Working Breaches.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Businesses Hit By Remote Working Breaches</a></h3>
+                                    <span class="post-date">March 14, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="image lewis/Meltdown and Spectre Check tool for Windows.png" alt="img"></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <h3 class="title"><a href="blog-details.html">Meltdown and Spectre Check tool for Windows</a></h3>
+                                    <span class="post-date">March 16, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <nav aria-label="Page navigation pagination-wrap">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link current" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link next" href="#">Next</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog-area-end -->
+
+        </main>
+        <!-- main-area-end -->
+
+
+        <!-- footer-start -->
+        <footer class="footer-area footer-bg" data-background="assets/img/bg/footer_bg.jpg">
+            <div class="container">
+                <div class="footer-top-wrap">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="footer-widget">
+                                <div class="footer-contact-info">
+                                    <h4 class="number">+254713324225</h4>
+                                    <h4 class="email">zerohack.agency@<br>gmail.com</h4>
+                                    <p>Nairobi <br>  Kenya</p>
+                                    <ul class="footer-social list-wrap">
+                                        <li><a href="#" aria-label="GitHub"><img src="assets/icons/github.png" alt="GitHub"></a></li>
+                                        <li><a href="#" aria-label="Twitter"><img src="assets/icons/twitter.png" alt="Twitter"></a></li>
+                                        <li><a href="#" aria-label="Instagram"><img src="assets/icons/instagram.png" alt="Instagram"></a></li>
+                                        <li><a href="#" aria-label="Medium"><img src="assets/icons/medium.png" alt="Medium"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-4 column-2">
+                            <div class="footer-widget">
+                                <h4 class="fw-title">Quick Links</h4>
+                                <ul class="footer-link">
+                                    <li><a href="about-us.html">About us</a></li>
+                                    <li><a href="srevices.html">Case Studies</a></li>
+                                    <li><a href="contact.html">Terms & Conditions</a></li>
+                                    <li><a href="contact.html">Privacy Poilicy</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-4 column-3">
+                            <div class="footer-widget">
+                                <h4 class="fw-title">Our Services</h4>
+                                <ul class="footer-link">
+                                    <li><a href="services-details.html">Spyware Protection</a></li>
+                                    <li><a href="services-details.html">Fast Cloud Backup</a></li>
+                                    <li><a href="services-details.html">Database Security</a></li>
+                                    <li><a href="services-details.html">Transaction Security</a></li>
+                                    <li><a href="services-details.html">Spambot Shield</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-7">
+                            <div class="footer-widget">
+                                <form action="#" class="">
+                                    <div class="form-grp">
+                                        <input type="email" required placeholder="Your email address">
+                                    </div>
+                                    <button type="submit" class="btn">Subscribe now <span class="shape"></span></button>
+                                    <p class="newsletter-alert"><span>*</span> Don't worry, we NEVER spam</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-wrap">
+                    <p class="copyright-text">Copyright ©2025 ZEROHACK</p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-start-end -->
+
+
+
+		<!-- JS here -->
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.odometer.min.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/ajax-form.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
